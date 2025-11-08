@@ -1,3 +1,6 @@
+Nama Dimas setya budi
+NIM 312310064
+
 # 🔒 Cipher Monoalphabetic
 
 [![GitHub license](https://img.shields.io/github/license/dimasbudigh/cipher-monoalphabetic)](https://github.com/dimasbudigh/cipher-monoalphabetic/blob/main/LICENSE)
@@ -36,4 +39,5 @@ Buka Terminal atau Command Prompt Anda dan jalankan perintah berikut:
 ```bash
 git clone [https://github.com/dimasbudigh/cipher-monoalphabetic.git](https://github.com/dimasbudigh/cipher-monoalphabetic.git)
 cd cipher-monoalphabetic
+
 

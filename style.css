@@ -1,0 +1,79 @@
+/* style.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #020202;
+  border: 1px solid #60c006;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #e5e0e0;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+textarea,
+input[type="text"] {
+  /* Diubah dari type="number" menjadi type="text" */
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #d90e07;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0810f3;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+section:last-child button {
+  background-color: #ffc107;
+  color: #efecec;
+}
+
+section:last-child button:hover {
+  background-color: #e0a800;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #eee8e8;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}

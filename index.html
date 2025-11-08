@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Monoalphabetic Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🔑 Aplikasi keamanan Enkripsi (Metode Monoalphabetic)</h1>
+
+    <div class="input-group">
+      <label for="key"
+        >Kunci Substitusi (26 huruf unik, misal:
+        QWERTYUIOPASDFGHJKLZXCVBNM):</label
+      >
+      <input
+        type="text"
+        id="key"
+        value="QWERTYUIOPASDFGHJKLZXCVBNM"
+        maxlength="26"
+      />
+      <p class="note">Pastikan kunci terdiri dari 26 huruf unik.</p>
+    </div>
+
+    <section>
+      <h2>Teks Asli (Plaintext)</h2>
+      <textarea
+        id="plaintext"
+        rows="4"
+        placeholder="Masukkan teks yang akan dienkripsi di sini..."
+      ></textarea>
+      <button onclick="enkripsi()">Enkripsi</button>
+    </section>
+
+    <section>
+      <h2>Teks Terenkripsi (Ciphertext)</h2>
+      <textarea
+        id="ciphertext"
+        rows="4"
+        readonly
+        placeholder="Hasil enkripsi akan muncul di sini..."
+      ></textarea>
+      <button onclick="dekripsi()">Dekripsi</button>
+    </section>
+    <label for="kunciInput">Kunci Substitusi:</label>
+    <input
+      type="text"
+      id="kunciInput"
+      value="QWERTYUIOPASDFGHJKLZXCVBNM"
+      onkeyup="buatTabelSubstitusi(btgrbr)"
+    />
+
+    <div id="tabelKunciVisualisasi"></div>
+
+    <label for="plaintextInput">Teks Asli (Plaintext):</label>
+    <textarea id="plaintextInput"></textarea>
+
+    <script src="script.js"></script>
+  </body>
+</html>
